@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:CuriositySoftware_XcodeTargetGraphGen}",
+            "name": "Debug xcgraphgen",
+            "program": "${workspaceFolder:CuriositySoftware_XcodeTargetGraphGen}/.build/debug/xcgraphgen",
+            "preLaunchTask": "swift: Build Debug xcgraphgen"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:CuriositySoftware_XcodeTargetGraphGen}",
+            "name": "Release xcgraphgen",
+            "program": "${workspaceFolder:CuriositySoftware_XcodeTargetGraphGen}/.build/release/xcgraphgen",
+            "preLaunchTask": "swift: Build Release xcgraphgen"
+        }
+    ]
+}
